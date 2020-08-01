@@ -2,7 +2,7 @@
 
 <img src="https://i.imgur.com/IF6axJS.png">
 
-A IP Tracker Tool to Geo locate a IP Protocol
+A IP Tracker Tool to Geolocate a IP Protocol
 
 Dependencies:
 - Python 3
