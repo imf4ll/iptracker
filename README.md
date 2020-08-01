@@ -5,6 +5,7 @@
 A IP Tracker Tool to Geo locate a IP Protocol
 
 Dependencies:
+- Python 3
 - Requests
 
 Documentation:
