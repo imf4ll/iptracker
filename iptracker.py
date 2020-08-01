@@ -7,7 +7,7 @@ def ipTrack(ip):
 
     while True:
         if 'message' in data:
-            print('\n\033[31m> Invalid/Nonexistent IP. \033[33m(Example: 123.456.789.000)\n\033[m')
+            print('\n\033[31m> Invalid/Nonexistant IP. \033[33m(Example: 123.456.789.000)\n\033[m')
             break
         else:
             print()
@@ -22,7 +22,7 @@ def ipTrack(ip):
             print(f'\033[34m> Latitude: \033[33m{data["lat"]}')
             print(f'\033[34m> Longitude: \033[33m{data["lon"]}')
             print(f'\033[34m> Timezone: \033[33m{data["timezone"]}')
-            print(f'\033[34m> Provider: \033[33m{data["isp"]}\n')
+            print(f'\033[34m> Provider: \033[33m{data["isp"]}\n\033[m')
             sleep(2)
             break
 
@@ -34,7 +34,7 @@ print('''\033[31m
 ██║██████╔╝   ██║   ██████╔╝███████║██║     █████╔╝ █████╗  ██████╔╝
 ██║██╔═══╝    ██║   ██╔══██╗██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
 ██║██║        ██║   ██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
-╚═╝╚═╝        ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝                                                        
+╚═╝╚═╝        ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝  
 \033[m''')
 
 while True:
@@ -44,9 +44,9 @@ while True:
             print('\n\033[34mCoded by f4ll_py\n\033[m')
             sleep(0.5)
             break
-        ipTrack(ip)
+        else:
+            ipTrack(ip)
     except(KeyboardInterrupt):
         print('\n\n\033[34mCoded by f4ll_py\n\033[m')
         sleep(0.5)
         break
-
