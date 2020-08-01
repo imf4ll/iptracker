@@ -9,4 +9,4 @@ Dependencies:
 - Requests
 
 Documentation:
-- Run script: python3 iptracker.py
+- Run script: python3 iptracker.py | python iptracker.py
