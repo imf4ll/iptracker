@@ -47,8 +47,7 @@ while True:
             if arg_cmd == '-t' or arg_cmd == '--target':
                 if len(argv) == 3:
                     arg_target = argv[2]
-                    ip = arg_target
-                    ipTrack(ip)
+                    ipTrack(arg_target)
                     break
                 else:
                     print('\n\033[31m> Invalid parameters! Enter "-h" or "--help" to view valid parameters.\033[m\n')
