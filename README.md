@@ -2,7 +2,7 @@
 
 <img src="https://i.imgur.com/cLm7yCn.gif">
 
-A IP Tracker Tool to facilite to Geolocate a IP Protocol
+A IP Tracker Tool to Geolocate a IP Protocol easily.
 
 API: ip-api.com
 
