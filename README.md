@@ -12,7 +12,7 @@ Changelog 0.2:
 - Now, is necessary input the target before running the script;
 - Some changes in return;
 - Added shebang (#!usr/bin/env python3);
-- Added requirements.txt to easy install dependencies.
+- Added dependencies.txt to easy install dependencies.
 
 Dependencies:
 - Python 3
@@ -20,7 +20,7 @@ Dependencies:
 
 Documentation:
 - Install dependencies: 
-  - pip install -r requirements.txt
+  - pip install -r dependencies.txt
 
 - Valid parameters:
   - -h or --help -> To see valid parameters in script
