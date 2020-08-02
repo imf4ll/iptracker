@@ -1,12 +1,13 @@
+#!/usr/bin/env python3
 from requests import get
-from time import sleep
+from sys import argv
 
 def ipTrack(ip):
     response = get(f'http://ip-api.com/json/{ip}?fields=status,message,continent,continentCode,country,countryCode,region,regionName,city,district,zip,lat,lon,timezone,offset,currency,isp,org,as,asname,reverse,mobile,proxy,hosting,query')
     data = response.json()
 
     while True:
-        if 'message' in data:
+        if data["status"] == 'fail':
             print('\n\033[31m> Invalid/Nonexistant IP. \033[33m(Example: 123.456.789.000)\n\033[m')
             break
         else:
@@ -23,11 +24,10 @@ def ipTrack(ip):
             print(f'\033[34m> Longitude: \033[33m{data["lon"]}')
             print(f'\033[34m> Timezone: \033[33m{data["timezone"]}')
             print(f'\033[34m> Provider: \033[33m{data["isp"]}\n\033[m')
-            sleep(2)
             break
 
 print('\n\033[34mCoded by f4ll_py\033[m')
-print('\n\033[34mVersion: \033[33m0.1\033[m')
+print('\n\033[34mVersion: \033[33m0.2\033[m')
 print('''\033[31m
 ██╗██████╗ ████████╗██████╗  █████╗  ██████╗██╗  ██╗███████╗██████╗ 
 ██║██╔══██╗╚══██╔══╝██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
@@ -38,15 +38,25 @@ print('''\033[31m
 \033[m''')
 
 while True:
-    try:
-        ip = str(input('\033[32mEnter the IP (w/ dots | 0 to quit): \033[m'))
-        if ip == '0':
-            print('\n\033[34mCoded by f4ll_py\n\033[m')
-            sleep(0.5)
-            break
-        else:
-            ipTrack(ip)
-    except(KeyboardInterrupt):
-        print('\n\n\033[34mCoded by f4ll_py\n\033[m')
-        sleep(0.5)
+    if len(argv) == 1:
+        print('\n\033[31m> Invalid parameters! Enter "-h" or "--help" to view valid parameters.\033[m\n')
         break
+    else:
+        if argv[1] != '':
+            arg_cmd = argv[1]
+            if arg_cmd == '-t' or arg_cmd == '--target':
+                if len(argv) == 3:
+                    arg_target = argv[2]
+                    ip = arg_target
+                    ipTrack(ip)
+                    break
+                else:
+                    print('\n\033[31m> Invalid parameters! Enter "-h" or "--help" to view valid parameters.\033[m\n')
+                    break
+            if arg_cmd == '-h' or arg_cmd == '--help':
+                print('> Basic Commands:\n')
+                print('>   -h                 Help')
+                print('>   --help             Help')
+                print('>   -t {IP}            Target IP')
+                print('>   --target {IP}      Target IP\n')
+                break
