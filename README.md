@@ -4,6 +4,8 @@
 
 A IP Tracker Tool to Geolocate a IP Protocol easily.
 
+**IF YOU HAVE ANOTHER PYTHON VERSION, USE 'python3' BEFORE THE PARAMETERS**
+
 API: ip-api.com
 
 Changelog 0.2:
