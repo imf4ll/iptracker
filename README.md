@@ -2,7 +2,9 @@
 
 <img src="https://i.imgur.com/IF6axJS.png">
 
-A IP Tracker Tool to Geolocate a IP Protocol
+A IP Tracker Tool to facilite to Geolocate a IP Protocol
+
+API: ip-api.com
 
 Dependencies:
 - Python 3
