@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
-from requests import get
-from sys import argv
+try:
+    from requests import get
+    from sys import argv
+except Exception as e:
+    print(f'Missing this module: {e}')
+    print("Try 'pip install -r dependencies.txt' to install all modules.")
 
 def ipTrack(ip):
     response = get(f'http://ip-api.com/json/{ip}?fields=status,message,continent,continentCode,country,countryCode,region,regionName,city,district,zip,lat,lon,timezone,offset,currency,isp,org,as,asname,reverse,mobile,proxy,hosting,query')
