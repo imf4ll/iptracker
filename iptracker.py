@@ -19,17 +19,17 @@ else:
             else:
                 print()
                 print('='*28)
-                print(f'\033[34mIP to Track: \033[33m{data["query"]}\033[m')
+                print(f'[+] \033[34mIP to Track: \033[33m{data["query"]}\033[m')
                 print('='*28)
-                print(f'\033[34m> Continent: \033[33m{data["continent"]}\033[m')
-                print(f'\033[34m> Country: \033[33m{data["country"]}')
-                print(f'\033[34m> Country Code: \033[33m{data["countryCode"]}')
-                print(f'\033[34m> State: \033[33m{data["regionName"]}')
-                print(f'\033[34m> City: \033[33m{data["city"]}')
-                print(f'\033[34m> Latitude: \033[33m{data["lat"]}')
-                print(f'\033[34m> Longitude: \033[33m{data["lon"]}')
-                print(f'\033[34m> Timezone: \033[33m{data["timezone"]}')
-                print(f'\033[34m> Provider: \033[33m{data["isp"]}\n\033[m')
+                print(f'[+] \033[34mContinent: \033[33m{data["continent"]}\033[m')
+                print(f'[+] \033[34mCountry: \033[33m{data["country"]}\033[m')
+                print(f'[+] \033[34mCountry Code: \033[33m{data["countryCode"]}\033[m')
+                print(f'[+] \033[34mState: \033[33m{data["regionName"]}\033[m')
+                print(f'[+] \033[34mCity: \033[33m{data["city"]}\033[m')
+                print(f'[+] \033[34mLatitude: \033[33m{data["lat"]}\033[m')
+                print(f'[+] \033[34mLongitude: \033[33m{data["lon"]}\033[m')
+                print(f'[+] \033[34mTimezone: \033[33m{data["timezone"]}\033[m')
+                print(f'[+] \033[34mProvider: \033[33m{data["isp"]}\n\033[m')
                 break
 
     print('\n\033[34mCoded by f4ll_py\033[m')
@@ -45,7 +45,7 @@ else:
 
     while True:
         if len(argv) == 1:
-            print('\n\033[31m> Invalid parameters! Enter "-h" or "--help" to view valid parameters.\033[m\n')
+            print('\n[-] \033[31mInvalid parameters! Enter "-h" or "--help" to view valid parameters.\033[m\n')
             break
         else:
             if argv[1] != '':
@@ -56,12 +56,12 @@ else:
                         ipTrack(arg_target)
                         break
                     else:
-                        print('\n\033[31m> Invalid parameters! Enter "-h" or "--help" to view valid parameters.\033[m\n')
+                        print('\n[-] \033[31mInvalid parameters! Enter "-h" or "--help" to view valid parameters.\033[m\n')
                         break
                 if arg_cmd == '-h' or arg_cmd == '--help':
-                    print('> Basic Commands:\n')
-                    print('>   -h                 Help')
-                    print('>   --help             Help')
-                    print('>   -t {IP}            Target IP')
-                    print('>   --target {IP}      Target IP\n')
+                    print('[+] Basic Commands:\n')
+                    print('[+]   -h                 Help')
+                    print('[+]   --help             Help')
+                    print('[+]   -t {IP}            Target IP')
+                    print('[+]   --target {IP}      Target IP')
                     break
