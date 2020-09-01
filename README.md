@@ -1,5 +1,11 @@
 # iptracker 0.2
 
+![Downloads](https://img.shields.io/github/downloads/f4ll-py/iptracker/total)
+![LastCommit](https://img.shields.io/github/last-commit/f4ll-py/iptracker)
+![Issues](https://img.shields.io/github/issues/f4ll-py/iptracker)
+![PullRequests](https://img.shields.io/github/issues-pr/f4ll-py/iptracker)
+![Followers](https://img.shields.io/github/followers/f4ll-py?label=Follow)
+
 <img src="https://i.imgur.com/RI6V03z.gif">
 
 A IP Tracker Tool to Geolocate a IP Protocol easily.
