@@ -19,14 +19,13 @@ def main():
     getIpInfo = get(f'http://ip-api.com/json/{ipInput}?fields=status,continent,continentCode,country,countryCode,region,regionName,city,timezone,isp,query')
     getIpInfoResult = getIpInfo.json()
 
-    print(f'\nIP Number ~> {getIpInfoResult["query"]}')
-    print(f'Country ~> {getIpInfoResult["country"]} {getIpInfoResult["countryCode"]}')
-    print(f'State ~> {getIpInfoResult["regionName"]}')
-    print(f'City ~> {getIpInfoResult["city"]}')
-    print(f'Timezone ~> {getIpInfoResult["timezone"]}')
-    print(f'Provider ~> {getIpInfoResult["isp"]}')
-
-    time.sleep(3)
+    return f'''
+IP Number ~> {getIpInfoResult["query"]}
+Country ~> {getIpInfoResult["country"]} {getIpInfoResult["countryCode"]}
+State ~> {getIpInfoResult["regionName"]}
+City ~> {getIpInfoResult["city"]}
+Timezone ~> {getIpInfoResult["timezone"]}
+Provider ~> {getIpInfoResult["isp"]}'''
 
 # Call main function
-main()
+print(main())
