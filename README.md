@@ -2,6 +2,7 @@
 
 <img src="https://i.imgur.com/RNGJWzj.png" width="800">
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/18e02bf1157045039677b775a480be15)](https://www.codacy.com/gh/f4ll-py/iptracker/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=f4ll-py/iptracker&amp;utm_campaign=Badge_Grade)
 ![LastCommit](https://img.shields.io/github/last-commit/f4ll-py/iptracker)
 ![Issues](https://img.shields.io/github/issues/f4ll-py/iptracker)
 ![PullRequests](https://img.shields.io/github/issues-pr/f4ll-py/iptracker)
