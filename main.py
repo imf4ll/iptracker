@@ -2,18 +2,16 @@
 
 from rich import print
 from requests import get
-from ascii import ascii
-
-import os
-import time
+from modules.banner import banner
+from os import system, name
 
 def clearTerminal():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    system('cls' if name == 'nt' else 'clear')
 
 # Main
 def main():
     clearTerminal()
-    print(ascii)
+    print(banner())
 
     ipInput = input('Type the IP number to track ~> ')
     getIpInfo = get(f'http://ip-api.com/json/{ipInput}?fields=status,continent,continentCode,country,countryCode,region,regionName,city,timezone,isp,query')
@@ -28,4 +26,7 @@ Timezone ~> {getIpInfoResult["timezone"]}
 Provider ~> {getIpInfoResult["isp"]}'''
 
 # Call main function
-print(main())
+try:
+    print(main())
+except KeyboardInterrupt:
+    pass
