@@ -1,5 +1,3 @@
-# 🐱‍💻 IPTracker 0.3.1
-
 <img src="https://i.imgur.com/RNGJWzj.png" width="800">
 
 [![CodeFactor](https://www.codefactor.io/repository/github/f4ll-py/iptracker/badge)](https://www.codefactor.io/repository/github/f4ll-py/iptracker)
