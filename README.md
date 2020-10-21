@@ -1,12 +1,10 @@
 <img src="https://i.imgur.com/RNGJWzj.png" width="800">
 
-[![CodeFactor](https://www.codefactor.io/repository/github/f4ll-py/iptracker/badge)](https://www.codefactor.io/repository/github/f4ll-py/iptracker)
-![LastCommit](https://img.shields.io/github/last-commit/f4ll-py/iptracker)
-![Issues](https://img.shields.io/github/issues/f4ll-py/iptracker)
-![PullRequests](https://img.shields.io/github/issues-pr/f4ll-py/iptracker)
-![Followers](https://img.shields.io/github/followers/f4ll-py?label=Follow)
-
-> A IP Tracker Tool to Geolocate a IP Protocol easily.
+[![CodeFactor](https://www.codefactor.io/repository/github/ff4LL/iptracker/badge)](https://www.codefactor.io/repository/github/ff4LL/iptracker)
+![LastCommit](https://img.shields.io/github/last-commit/ff4LL/iptracker)
+![Issues](https://img.shields.io/github/issues/ff4LL/iptracker)
+![PullRequests](https://img.shields.io/github/issues-pr/ff4LL/iptracker)
+![Followers](https://img.shields.io/github/followers/ff4LL?label=Follow)
 
 <br><br>
 
