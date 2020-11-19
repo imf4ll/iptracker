@@ -1,10 +1,10 @@
 <img src="https://i.imgur.com/RNGJWzj.png" width="800">
 
-[![CodeFactor](https://www.codefactor.io/repository/github/ff4LL/iptracker/badge)](https://www.codefactor.io/repository/github/ff4LL/iptracker)
-![LastCommit](https://img.shields.io/github/last-commit/ff4LL/iptracker)
-![Issues](https://img.shields.io/github/issues/ff4LL/iptracker)
-![PullRequests](https://img.shields.io/github/issues-pr/ff4LL/iptracker)
-![Followers](https://img.shields.io/github/followers/ff4LL?label=Follow)
+[![CodeFactor](https://www.codefactor.io/repository/github/h4lkun1//iptracker/badge)](https://www.codefactor.io/repository/github/h4lkun1/iptracker)
+![LastCommit](https://img.shields.io/github/last-commit/h4lkun1/iptracker)
+![Issues](https://img.shields.io/github/issues/h4lkun1/iptracker)
+![PullRequests](https://img.shields.io/github/issues-pr/h4lkun1/iptracker)
+![Followers](https://img.shields.io/github/followers/h4lkun1?label=Follow)
 
 <br><br>
 
