@@ -1,10 +1,8 @@
-<img src="https://i.imgur.com/RNGJWzj.png" width="800">
-
-[![CodeFactor](https://www.codefactor.io/repository/github/h4lkun1//iptracker/badge)](https://www.codefactor.io/repository/github/h4lkun1/iptracker)
-![LastCommit](https://img.shields.io/github/last-commit/h4lkun1/iptracker)
-![Issues](https://img.shields.io/github/issues/h4lkun1/iptracker)
-![PullRequests](https://img.shields.io/github/issues-pr/h4lkun1/iptracker)
-![Followers](https://img.shields.io/github/followers/h4lkun1?label=Follow)
+[![CodeFactor](https://www.codefactor.io/repository/github/h4ikun1//iptracker/badge)](https://www.codefactor.io/repository/github/h4ikun1/iptracker)
+![LastCommit](https://img.shields.io/github/last-commit/h4ikun1/iptracker)
+![Issues](https://img.shields.io/github/issues/h4ikun1/iptracker)
+![PullRequests](https://img.shields.io/github/issues-pr/h4ikun1/iptracker)
+![Followers](https://img.shields.io/github/followers/h4ikun1?label=Follow)
 
 <br><br>
 
@@ -15,8 +13,8 @@ IPTracker is a Python CLI tool to Geolocate a IP Protocol easily.
 
 ## ☁️ Download
     * For a more easy download, click in the button Clone or download and click in Download ZIP
-    * If you want to use SSH, you can use `git@github.com:f4ll-py/iptracker.git`
-    * If you want to use HTTPS, you can use `git clone https://github.com/f4ll-py/iptracker.git` *(recommended)*
+    * If you want to use SSH, you can use `git@github.com:h4ikun1/iptracker.git`
+    * If you want to use HTTPS, you can use `git clone https://github.com/h4ikun1/iptracker.git` *(recommended)*
 
 <br><br>
 
