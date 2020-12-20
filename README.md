@@ -1,9 +1,3 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/z3ox1s/iptracker/badge)](https://www.codefactor.io/repository/github/z3ox1s/iptracker)
-![LastCommit](https://img.shields.io/github/last-commit/z3ox1s/iptracker)
-![Issues](https://img.shields.io/github/issues/z3ox1s/iptracker)
-![PullRequests](https://img.shields.io/github/issues-pr/z3ox1s/iptracker)
-![Followers](https://img.shields.io/github/followers/z3ox1s?label=Follow)
-
 <br><br>
 
 ## 🤔 What is Consult?
