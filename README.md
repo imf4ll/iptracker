@@ -7,8 +7,8 @@ IPTracker is a Python CLI tool to Geolocate a IP Protocol easily.
 
 ## ☁️ Download
     * For a more easy download, click in the button Clone or download and click in Download ZIP
-    * If you want to use SSH, you can use `git@github.com:z3ox1s/iptracker.git`
-    * If you want to use HTTPS, you can use `git clone https://github.com/z3ox1s/iptracker.git` *(recommended)*
+    * If you want to use SSH, you can use `git@github.com:z3o/iptracker.git`
+    * If you want to use HTTPS, you can use `git clone https://github.com/z3o/iptracker.git` *(recommended)*
 
 <br><br>
 
