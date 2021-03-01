@@ -1,6 +1,6 @@
 <br><br>
 
-## 🤔 What is Consult?
+## 🤔 What is IPTracker?
 IPTracker is a Python CLI tool to Geolocate a IP Protocol easily.
 
 <br><br>
